@@ -1,0 +1,32 @@
+public class RobotAdapter implements Spieler {
+private Robot robot;  
+
+	public RobotAdapter(Robot robot) {
+	super();
+	this.robot = robot;
+}
+
+	@Override
+	public int geheNachLinks(int a) {
+		return 0;
+	}
+
+	@Override
+	public int geheNachRechts(int a) {
+		
+		return 0;
+	}
+
+	@Override
+	public int geheNachOben(int a) {
+		
+		return 0;
+	}
+
+	@Override
+	public int geheNachUnten(int a) {
+		
+		return 0;
+	}
+
+}
